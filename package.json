@@ -1,0 +1,18 @@
+{
+  "name": "DinnerRoll-Google-Assistant",
+  "version": "1.0.0",
+  "description": "A Google Assistant app because I can never decide where to eat",
+  "main": "dinnerroll.js",
+  "repository": "git@github.com:DinnerRollApp/google-assistant.git",
+  "author": "Michael Hulet <michael@hulet.tech>",
+  "license": "GPLv3",
+  "private": true,
+  "dependencies": {
+    "@firebase/app-types": "0.x",
+    "actions-on-google": "^2.2.0",
+    "firebase-admin": "~5.13.0",
+    "firebase-functions": "^2.0.0",
+    "request": "^2.34",
+    "request-promise-native": "^1.0.5"
+  }
+}
